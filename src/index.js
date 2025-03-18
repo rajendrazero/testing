@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const { upload, ensureUploadsFolder } = require('./middleware/multerConfig');
+const { upload, ensureUploadsFolder } = require('./middleware/multerconfig');
 const bodyParser = require('body-parser');
 
 const articleRoutes = require('./routes/articleRoutes');
