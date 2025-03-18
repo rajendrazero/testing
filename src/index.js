@@ -7,7 +7,6 @@ const bodyParser = require('body-parser');
 const articleRoutes = require('./routes/articleRoutes');
 
 dotenv.config();
-
 const app = express();
 app.use(ensureUploadsFolder);
 app.use(cors());
